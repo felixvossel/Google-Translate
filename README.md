@@ -1,2 +1,3 @@
 # Google-Translate
-Google Translate in a Programm written in C#.
+Example
+Google Übersetzer einfach in einem Programm benutzen.
