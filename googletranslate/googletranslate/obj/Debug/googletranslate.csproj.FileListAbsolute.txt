@@ -1,0 +1,7 @@
+C:\Users\felix\source\repos\googletranslate\googletranslate\bin\Debug\googletranslate.exe.config
+C:\Users\felix\source\repos\googletranslate\googletranslate\bin\Debug\googletranslate.exe
+C:\Users\felix\source\repos\googletranslate\googletranslate\bin\Debug\googletranslate.pdb
+C:\Users\felix\source\repos\googletranslate\googletranslate\obj\Debug\googletranslate.csprojAssemblyReference.cache
+C:\Users\felix\source\repos\googletranslate\googletranslate\obj\Debug\googletranslate.csproj.CoreCompileInputs.cache
+C:\Users\felix\source\repos\googletranslate\googletranslate\obj\Debug\googletranslate.exe
+C:\Users\felix\source\repos\googletranslate\googletranslate\obj\Debug\googletranslate.pdb
