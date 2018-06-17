@@ -15,13 +15,13 @@ namespace googletranslate
 
             WebClient DownloadHTMLString = new WebClient(); //"WebClient" wird benutzt, um die Webseite als String herunterzuladen.
 
-            DownloadHTMLString.Encoding = System.Text.Encoding.UTF8; // Encoding wird auf UTF8 gesetzt, um auch umlaute mit übersetzen zu können.
+            DownloadHTMLString.Encoding = System.Text.Encoding.GetEncoding(850); // Encoding wird auf das standard Betriebssystemencoding gesetzt, um auch Sprachen wie Arabisch übersetzen zu können.
 
             string Result = DownloadHTMLString.DownloadString(GoogleTranslateUrl); // Die Webseite wird in der Variable "Result" gespeichert.
 
             Result = Result.Substring(Result.IndexOf("<span title=\"") + "<span title=\"".Length);
             /*
-             * Es wird nach bestimmten HTML-Tags gesucht, um die Übersetzung im HTML-Text zu finden.
+             * Es wird nach bestimmten HTML-Tags gesucht, um die Übersetzung einzugränzen.
              */
 
             Result = Result.Substring(Result.IndexOf(">") + 1); //Die Übersetzung wird weiter eingegränzt. 
